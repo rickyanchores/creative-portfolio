@@ -1,0 +1,15 @@
+@import "./styles/main.scss";
+@import "./components/Nav/Nav.scss";
+
+//@import "./sections/"
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background: #333a;
+}

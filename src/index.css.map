@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,CAAC,CAAA;EACC,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAA;EACF,UAAU,EAAE,KAAK;CAClB",
+    "sources": [
+        "index.scss",
+        "styles/main.scss",
+        "components/Nav/Nav.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
