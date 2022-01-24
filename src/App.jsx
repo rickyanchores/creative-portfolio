@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router,Switch } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 
 
@@ -9,12 +10,16 @@ import Home from './sections/Home/Home';
 
 const App = () => {
   return (
+    <Router>
     <div className='App'>
-      <Nav />
-      <Home />
-      <Contact />
-      <About />
+     
+        <Nav />
+     
+        <Home />
+        <Contact />
+        <About />
     </div>
+    </Router>
   )
 }
 
